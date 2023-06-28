@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1A_tJQOlunMHYmxhZaixs2Dmyf6hNjeRx
 """
 
-!pip install mne
+
 import pandas as pd
 import numpy as np
 import csv
