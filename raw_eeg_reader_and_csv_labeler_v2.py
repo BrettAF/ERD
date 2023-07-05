@@ -145,7 +145,7 @@ def convertFile(file_name, recording_start_time):
 
 
 
-folders = ['chb01', 'chb02','chb03','chb04','chb05', 'chb06','chb07','chb08','chb09', 'chb10','chb11','chb12','chb13', 'chb14','chb15','chb16','chb17', 'chb18','chb19','chb20','chb21', 'chb22','chb23','chb24',]
+folders = ['chb05', 'chb06','chb07','chb08','chb09', 'chb10','chb11','chb12','chb13', 'chb14','chb15','chb16','chb17', 'chb18','chb19','chb20','chb21', 'chb22','chb23','chb24',]
 for folder in folders:
   eeg_files, file_start_times, seizure_start_times, seizure_end_times = summaryReader(folder)
   print(seizure_start_times)
