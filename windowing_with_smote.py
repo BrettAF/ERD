@@ -9,15 +9,7 @@ Original file is located at
 
 #from google.colab import drive
 #drive.mount('/content/drive')
-d = dir()
 
-#You'll need to check for user-defined variables in the directory
-for obj in d:
-    #checking for built-in variables/functions
-    if not obj.startswith('__'):
-        #deleting the said obj, since a user-defined function
-        del globals()[obj]
-del obj
 
 """# Libraries and variables"""
 
