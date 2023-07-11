@@ -146,7 +146,7 @@ def convertFile(file_name, recording_start_time):
 ['Time', 'FP1-F7', 'T7-P7', 'P7-O1', 'FP1-F3', 'F3-C3', 'C3-P3', 'FP2-F4', 'F4-C4', 'C4-P4', 'P4-O2', 'FP2-F8', 'F8-T8', 'T8-P8', 'P8-O2', 'FZ-CZ', 'CZ-PZ', 'EEG Time', 'Label']
 """
 
-folders = ['chb01','chb03','chb05']
+folders = ['chb01','chb03']
 for folder in folders:
   eeg_files, file_start_times, seizure_start_times, seizure_end_times = summaryReader(folder)
   print(seizure_start_times)
