@@ -18,7 +18,7 @@ import csv
 batch_size=200
 number_of_epochs=21
 window_size = 600
-number of channels = 18
+number_of_channels = 18
 
 training_data=np.load("training_data.npy")
 testing_data=np.load("testing_data.npy")
