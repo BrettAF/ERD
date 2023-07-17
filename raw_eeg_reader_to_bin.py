@@ -152,7 +152,7 @@ for folder in folders:
   for i in range(0,len(eeg_files)):
     print(eeg_files[i])
     data,header=convertEDF(str(eeg_files[i]))
-    row_count,labels=convertFileToNP(eeg_files[i],file_start_times[i]data,header)
+    row_count,labels=convertFileToNP(eeg_files[i],file_start_times[i],data,header)
 
     np.array(labels)
     np.save(eeg_files[i]+'labels',labels)
