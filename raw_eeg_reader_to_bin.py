@@ -166,7 +166,7 @@ def convertFileToNP(file_name, recording_start_time):
 
 folders = ['chb03','chb04','chb05','chb06','chb07','chb08','chb09','chb10',
           'chb11','chb12','chb13','chb14','chb15','chb16','chb17','chb18','chb19','chb20',
-          'chb21','chb22','chb23','chb23']
+          'chb21','chb22','chb23','chb23','chb24']
 for folder in folders:
   os.chdir(folder)
   eeg_files, file_start_times, seizure_start_times, seizure_end_times,file_end_time = summaryReader(folder)
