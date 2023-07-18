@@ -36,7 +36,7 @@ window_size = 600
 number_of_channels = 18
 
 def make_dataset(np_files,l):
-  os.chdir('/content/drive/MyDrive/ERD')
+  #os.chdir('/content/drive/MyDrive/ERD')
 
   big_labels_array=[]
   put=0#This is the place the next dataset loaded will be placed
