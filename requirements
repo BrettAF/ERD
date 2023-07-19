@@ -1,0 +1,17 @@
+pandas
+mne
+numpy
+scipy
+scikit-learn
+tensorflow
+imbalanced-learn
+# pip install -r requirements.txt
+
+#jupyter notebook --allow-root
+
+#sudo docker run -v /home/ncladmin/Downloads/Brett/:/opt/tritonserver/BRETT -it --rm --runtime nvidia --network host nvcr.io/nvidia/merlin/merlin-tensorflow:nightly
+
+
+
+#en231b123
+#
