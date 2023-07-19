@@ -1,0 +1,7 @@
+pandas
+mne
+numpy
+scipy
+scikit-learn
+tensorflow
+# pip install -r requirements.txt
