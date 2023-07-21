@@ -77,7 +77,7 @@ def removeSeizures(dfs,labels,Period_of_interest):
     if (labels[i] <0):
       index_to_delete.append(i)
       new_labels=np.append(new_labels,3)
-    #if the label is 0, it is after the last siezure, i don;t really know how to treat it
+    #if the label is 0, it is after the last seizure
     elif (labels[i]==0):
       new_labels=np.append(new_labels,int(0))
 
