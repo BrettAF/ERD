@@ -187,7 +187,7 @@ class My_Custom_Generator(keras.utils.Sequence) :
     batch_x = self.filenames[idx * self.batch_size : (idx+1) * self.batch_size]
     batch_y = self.labels[idx * self.batch_size : (idx+1) * self.batch_size]
     print(idx,end=' ')
-    return np.array([np.memmap(str(file_name), dtype='float32', mode='w+', shape=(600,18))
+    return np.array([np.memmap(str(file_name), dtype='float32', mode='r', shape=(600,18))
                for file_name in batch_x]), np.array(batch_y)
 
 #This function converts integers to one-hot arrays
