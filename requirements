@@ -10,7 +10,7 @@ imbalanced-learn
 #jupyter notebook --allow-root
 
 #sudo docker run -v /home/ncladmin/Downloads/Brett/:/opt/tritonserver/BRETT -it --rm --runtime nvidia --network host nvcr.io/nvidia/merlin/merlin-tensorflow:nightly
-
+#wget https://physionet.org/static/published-projects/chbmit/chb-mit-scalp-eeg-database-1.0.0.zip
 
 
 #en231b123
